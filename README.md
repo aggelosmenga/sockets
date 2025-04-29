@@ -30,4 +30,6 @@ A. Multiplication of N signed integers, where N is between 2 and 10. Each intege
 B. Average of N integers, where N is between 2 and 20. Each integer accepted by the server must be between 0 and 200. The server will return the result of the average.
 
 C. Subtracting 2 sets of N numbers, where N is between 2 and 10. Each integer that the Server will accept must be from 0 to 60000. The Server will accept 2 sets of N numbers and will subtract from each number in the first set the corresponding number in the second set. It will return 1 set of N numbers. For example, if the client sends the numbers in the 1st set: 2, 4 and 6 and in the 2nd set 1, 3 and 4, the server will return 1, 1 and 2. 
+
+
 The client should send the server as many numbers as it needs and the command it wants to execute, and should receive back as a response either the result if the operation is successful or an error message (and what type of error - if, for example, numbers greater than the prerequisite are given as input).
