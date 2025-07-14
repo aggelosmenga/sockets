@@ -21,7 +21,7 @@ O client θα πρέπει να στέλνει στον server όσους αρι
 είναι επιτυχημένη η πράξη ή μήνυμα λάθους (και τι είδος λάθους - αν π.χ. δοθούν σαν είσοδο
 αριθμοί μεγαλύτεροι από το προαπαιτούμενο).
 
-
+to do: ελεγχος εγκυροτητας μεσω server
 
 communication protocol between a server and multiple clients. The server acts as an analytical engine that performs the following 3 operations:
 
